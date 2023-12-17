@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/game.css">
+</head>
+<body>
+    <div class="dot-spinner">
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+    </div>
+    <div id="container">
+        <div class="header">
+            <div>
+                <p>question no:</p>
+                <span id="question-number">1</span>
+            </div>
+            <div>
+                <p>score:</p>
+                <span id="score">0</span>
+            </div>
+        </div>
+        <div id="question-box">
+            <h3 id="question-text">question text</h3>
+            <button class="answer-text">1</button>
+            <button class="answer-text">2</button>
+            <button class="answer-text">3</button>
+            <button class="answer-text">4</button>
+        </div>
+        <button id="finish-button">finish</button>
+        <button id="next-button">nex</button>
+    </div>
+
+    <script src="./js/game.js"></script>
+</body>
+</html>
