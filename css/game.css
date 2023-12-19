@@ -188,3 +188,16 @@
     background-color: #6757d9;
     color: #fff;
   }
+
+  .correct {
+    background-color: green;
+  }
+  .incorrect {
+    background-color: red;
+  }
+  .correct:hover {
+    background-color: green;
+  }
+  .incorrect:hover {
+    background-color: red;
+  }
