@@ -201,3 +201,7 @@
   .incorrect:hover {
     background-color: red;
   }
+
+  #error {
+    display: none;
+  }
