@@ -1,5 +1,7 @@
 import formatData from "./helper.js";
 
+const level = localStorage.getItem("level") || "medium";
+
 const loader = document.getElementById("dot-spinner");
 const container = document.getElementById("container");
 const questionText = document.getElementById("question-text");
@@ -11,7 +13,7 @@ const questionNumber = document.getElementById("question-number");
 
 const COREECT_BONUS = 10;
 const URL = 
-"https://opentdb.com/api.php?amount=10&difficulty=easy&type=multiple";
+`https://opentdb.com/api.php?amount=10&difficulty=${level}&type=multiple`;
 let formattedData = null;
 let questionIndex = 0;
 let correctAnswer = null;
