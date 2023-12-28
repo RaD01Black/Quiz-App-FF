@@ -51,4 +51,14 @@ a {
     background-color: #eeedfb;
     border: 2px solid #6757d9;
     border-radius: 15px;
+    padding:  8px 15px;
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+a:hover {
+    background-color: #6757d9;
+    color: #fff;
 }
