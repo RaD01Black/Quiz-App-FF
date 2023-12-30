@@ -90,4 +90,4 @@ nextButton.addEventListener("click", nextHandler)
 finishButton.addEventListener("click", finishHandler)
 answerList.forEach((button, index) => {
     button.addEventListener("click", (event) => checkAnswer(event, index));
-})
+});

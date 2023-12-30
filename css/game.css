@@ -190,16 +190,16 @@
   }
 
   .correct {
-    background-color: green;
+    background-color: #51cf66;
   }
   .incorrect {
-    background-color: red;
+    background-color: #e03131;
   }
   .correct:hover {
-    background-color: green;
+    background-color: rgb(3, 185, 3)66;
   }
   .incorrect:hover {
-    background-color: red;
+    background-color: #ee5454;
   }
 
   #error {
