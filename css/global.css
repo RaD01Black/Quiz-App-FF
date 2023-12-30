@@ -8,7 +8,7 @@
 body {
     max-width: 1000px;
     margin: auto; 
-    background-color: aliceblue;
+    background-color: rgb(234, 234, 234);
     display: flex;
     flex-direction: column;
     align-items: center;
