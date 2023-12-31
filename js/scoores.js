@@ -11,7 +11,6 @@ const content = highScores.map((score, index) => {
     </li>
     `;
 });
-console.log("kir")
 
 list.innerHTML = content.join("");
 console.log(content)
